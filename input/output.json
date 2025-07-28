@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "persona": "Investment Analyst",
+    "job": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "documents": ["file1.pdf", "file2.pdf"]
+  },
+  "extracted_sections": [
+    {
+      "document": "file1.pdf",
+      "page": 2,
+      "section_title": "Revenue Analysis Summary",
+      "importance_rank": 1
+    },
+    {
+      "document": "file2.pdf",
+      "page": 4,
+      "section_title": "R&D Investment Breakdown",
+      "importance_rank": 2
+    }
+  ]
+}

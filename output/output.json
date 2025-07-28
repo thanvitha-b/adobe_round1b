@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "persona": "Investment Analyst",
+    "job": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "documents": [
+      "23251A0550.pdf",
+      "resume.pdf"
+    ]
+  },
+  "extracted_sections": [
+    {
+      "document": "23251A0550.pdf",
+      "page": 2,
+      "section_title": "Display the details of employees whose salary is between 1000 and 3000.",
+      "importance_rank": 1
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 2,
+      "section_title": "SQL> select * from emp where sal between 1000 and 2000;",
+      "importance_rank": 2
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 3,
+      "section_title": "Display the employee names and yearly salary with the header \u201cAnnual Salary\u201d.",
+      "importance_rank": 3
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 4,
+      "section_title": "7. Display the list of employees whose names start with \u2018S\u2019 and contain exactly 5 characters.",
+      "importance_rank": 4
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 4,
+      "section_title": "SQL> select ename from emp where deptno=20 and sal>3000;",
+      "importance_rank": 5
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 4,
+      "section_title": "Find all clerks who earn between 1000 and 2000.",
+      "importance_rank": 6
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 4,
+      "section_title": "SQL> select * from emp where job='CLERK' and sal between 1000 and 2000;",
+      "importance_rank": 7
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 5,
+      "section_title": "12. List department no and name in alphabetical order of department name.",
+      "importance_rank": 8
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 5,
+      "section_title": "13. List the details of the employees in department 10 and 20 in alphabetical order of name.",
+      "importance_rank": 9
+    },
+    {
+      "document": "23251A0550.pdf",
+      "page": 6,
+      "section_title": "14. Display name and total remuneration of all employees.",
+      "importance_rank": 10
+    }
+  ]
+}
